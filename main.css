@@ -135,6 +135,7 @@ h2{
     padding-right: 4px;
 }
 .title{
+    width: 100%;
     color: #9b9b9b;
     text-align: center;
     background-color: #202020;
@@ -143,7 +144,8 @@ h2{
     padding-bottom: 20px;
 }
 
-.quotes{
+q{
+    display: block;
     color: #9b9b9b;
     text-align: center;
     font-size: 32px;
@@ -304,7 +306,7 @@ form input:not(.submit){
     padding-bottom: 10px;
     margin-bottom: 10px;
     margin-left: 135px;
-    width: 460px;
+    width: 365px;
     color: #878787;
     font-size: 16px;
     font-style: italic;
@@ -313,9 +315,14 @@ form input:not(.submit){
 }
 
 .submit{
+    padding-bottom: 10px;
     background-color: #2b2b2b;
     border:0;
-    color: #9b9b9b;
+    color: #7f7f7f;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
     padding-top: 8px;
     margin-top: 8px;
     margin-left: 135px;
@@ -323,11 +330,16 @@ form input:not(.submit){
     height: 30px;
 }
 
+a{
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
 textarea{
     background-color: #2b2b2b;
     color: #9b9b9b;
     margin-left: 135px;
-    width: 460px;
+    width: 396px;
     border: 0;
 }
 
